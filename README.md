@@ -21,7 +21,7 @@ project:
 services:
   - hostname: nitrojs
     type: nodejs@20
-    buildFromGit: https://github.com/fxck/zerops-nitro
+    buildFromGit: https://github.com/fxck/zerops-nitrojs
     ports:
       - port: 3000
         httpSupport: true
