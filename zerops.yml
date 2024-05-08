@@ -1,0 +1,21 @@
+zerops:
+  - setup: nitrojs
+    build:
+      base: nodejs@20
+
+      buildCommands:
+        - pnpm i
+        - pnpm run build
+
+      deploy:
+        - .nitro
+        - .output
+        - package.json
+        - node_modules
+
+      cache:
+        - node_modules
+        - pnpm-lock.json
+
+    run:
+      start: pnpm start
