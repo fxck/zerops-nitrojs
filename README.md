@@ -1,6 +1,6 @@
 # Zerops + Nitro
 
-![Header Image](header.png)
+![Header Image](https://storage-prg1.zerops.io/4gn35-objectstorage0/upload-dir/nitro-zerops.png)
 
 A Nitro example for Zerops that you can deploy in 2 steps on zerops.
 
